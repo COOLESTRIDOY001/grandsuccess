@@ -1,0 +1,53 @@
+ #bg{
+    background-image: linear-gradient(to right, blue, rgb(241, 82, 109));
+ }
+ #motto{
+  font-family:  'Trebuchet MS';
+ }
+ #applybutton:hover{
+   background-color:brown;
+   color:white;
+   transition: transform 1s;
+   transform: scale(1.1);
+ }
+ #applybutton{
+  box-shadow: 2px 2px; 
+ }
+ #grandsuccesslogo{
+  position: relative;
+  animation: rotateBox 2s linear infinite;
+ }
+ @keyframes rotateBox {
+  from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+ }
+#img1{
+  padding-bottom: 10px;
+  
+}
+@keyframes bounce {
+0%, 100% {
+transform: translateX(0px);
+}
+50% {
+transform: translateY(20px);
+animation-timing-function: ease-in;
+}
+}
+#img1 {
+animation: bounce 0.8s infinite;
+}
+#box1:hover{
+  transition: scale 0.5s;
+  transform: scale(1.1);
+}
+#newimage{
+  box-shadow: 2px 2px 2px 2px indigo;
+}
+#edufont{
+  text-shadow: 2px 2px pink;
+}

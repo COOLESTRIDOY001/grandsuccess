@@ -1,0 +1,98 @@
+
+h1 {
+    color: rgb(117, 114, 108);
+    font-family: Cambria, Cochin, Georgia, ;
+    margin-left: 400px;
+    font-size: 50px;
+    font-weight: 10;
+}
+
+nav{
+    text-decoration: none;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: yellow;
+}
+
+ul li{ 
+    list-style-type: none;
+    display: inline-block;
+    text-indent: 120px;
+    word-spacing: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+#div1{
+    background-image: linear-gradient(rgb(43, 226, 223), rgb(250, 234, 234));
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+
+}
+h2{
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100;
+    font-style: italic;
+    text-decoration: dotted;
+}
+#container{
+    display: flex;
+}
+.div2{
+    background-color: rgb(168, 177, 211);
+    height: 50vh;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 10px;
+    /* display: flex; */
+}
+.div3{
+    background-color: rgb(227, 185, 185);
+    height: 50vh;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    /* display: flex; */
+}
+.div4{
+    background-color: rgb(187, 158, 201);
+    height: 50vh;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* display: flex; */
+}
+h5{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.text1{
+    width: 80%;
+    margin-left: 5px;
+}
+label{
+    margin-left: 2px;
+}
+.firsth{
+    text-align: center;
+    font-weight: bold;
+}
+h6{
+    margin-left: 20px;
+}
