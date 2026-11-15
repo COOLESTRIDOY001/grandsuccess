@@ -54,3 +54,6 @@ animation: bounce 0.8s infinite;
 #list{
   list-style-type: disc;
 }
+#firstp{
+  line-height: 40px;
+}
