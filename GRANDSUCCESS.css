@@ -51,3 +51,6 @@ animation: bounce 0.8s infinite;
 #edufont{
   text-shadow: 2px 2px pink;
 }
+#list{
+  list-style-type: disc;
+}
